@@ -1,0 +1,6 @@
+package homework2num4;
+
+public class Car extends Vehicles {
+	private int seats;
+	
+}

@@ -1,0 +1,38 @@
+package homework2num1;
+
+public class Phone {
+	private int szie;
+	private String brand;
+	private String cpu;
+	private String memory;
+	
+	
+	public int getSzie() {
+		System.out.println(szie);
+		return szie;
+	}
+	public void setSzie(int screenSzie) {
+		this.szie = screenSzie;
+	}
+	public String getBrand() {
+		System.out.println(brand);
+		return brand;
+	}
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+	public String getCpu() {
+		System.out.println(cpu);
+		return cpu;
+	}
+	public void setCpu(String cpu) {
+		this.cpu = cpu;
+	}
+	public String getMemory() {
+		System.out.println(memory);
+		return memory;
+	}
+	public void setMemory(String memory) {
+		this.memory = memory;
+	}
+}
